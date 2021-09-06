@@ -1,30 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "rac",
+  "id": "raccoon",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "The Raccoon Mod",
+  "description": "Adding Raccoons to Minecraft!",
   "authors": [
-    "Me!"
+    "Lith"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": ""
   },
 
   "license": "LGPL-3.0",
-  "icon": "assets/rac/icon.png",
+  "icon": "assets/raccoon/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.TheRaccoonMod",
       "lith.registry.raccoonegg"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {

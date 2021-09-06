@@ -11,10 +11,10 @@ import net.minecraft.util.registry.Registry;
 public class raccoonegg implements ModInitializer {
 
 	// racoon egg pog
-	public static final Item RACCOON_EGG = new Item(new FabricItemSettings().group(ItemGroup.FOOD));
+	public static final Item raccoonegg = new Item(new FabricItemSettings().group(ItemGroup.FOOD));
 
 	@Override
 	public void onInitialize() {
-		Registry.register(Registry.ITEM, new Identifier("theraccoonmod", "raccoon_egg"), RACCOON_EGG);
+		Registry.register(Registry.ITEM, new Identifier("raccoon", "raccoonegg"), raccoonegg);
 	}
 }
