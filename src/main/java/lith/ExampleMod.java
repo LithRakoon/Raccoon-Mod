@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package lith;
 
 import net.fabricmc.api.ModInitializer;
 
