@@ -19,7 +19,8 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.TheRaccoonMod"
+      "lith.TheRaccoonMod",
+      "lith.registry.raccoonegg"
     ]
   },
   "mixins": [
