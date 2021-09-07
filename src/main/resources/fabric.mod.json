@@ -20,7 +20,8 @@
   "entrypoints": {
     "main": [
       "lith.registry.raccoonegg",
-      "lith.registry.cottoncandy"
+      "lith.registry.cottoncandy",
+      "lith.block.trashblock"
     ]
   },
   "mixins": [
