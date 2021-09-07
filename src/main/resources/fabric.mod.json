@@ -19,7 +19,8 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.registry.raccoonegg"
+      "lith.registry.raccoonegg",
+      "lith.registry.cottoncandy"
     ]
   },
   "mixins": [
