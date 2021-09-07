@@ -1,5 +1,8 @@
 {
   "item.raccoon.raccoonegg": "Raccoon Egg",
   "item.raccoon.cottoncandy": "Cotton Candy",
-  "block.raccoon.trashblock": "Trash Block"
+  "item.raccoon.grapes": "Grapes",
+
+  "block.raccoon.trashblock": "Trash Block",
+  "block.raccoon.grapeplant": "Grape Vine"
 }

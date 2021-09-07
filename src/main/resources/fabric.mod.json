@@ -21,7 +21,9 @@
     "main": [
       "lith.registry.raccoonegg",
       "lith.registry.cottoncandy",
-      "lith.block.trashblock"
+      "lith.block.trashblock",
+      "lith.registry.grapes",
+      "lith.block.grapeplant"
     ]
   },
   "mixins": [
