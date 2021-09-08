@@ -23,7 +23,9 @@
       "lith.registry.cottoncandy",
       "lith.block.trashblock",
       "lith.registry.grapes",
-      "lith.block.grapeplant"
+      "lith.block.grapeplant",
+      "lith.registry.grapeseeds"
+
     ]
   },
   "mixins": [
