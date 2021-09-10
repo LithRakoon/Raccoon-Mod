@@ -1,0 +1,10 @@
+{
+  "varients": {
+    "age=0": {
+      "model": "raccoon:grapeplant_stage0"
+    },
+    "age=1": {
+      "model": "raccoon:grape_plant_stage1"
+    }
+  }
+}
