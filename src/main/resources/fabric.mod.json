@@ -19,19 +19,17 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.registry.raccoonegg",
-      "lith.registry.cottoncandy",
-      "lith.block.trashblock",
-      "lith.registry.grapes"
+
     ]
   },
   "mixins": [
+
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.11.7",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.17.1",
     "java": ">=16"
   },
   "suggests": {

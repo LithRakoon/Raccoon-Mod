@@ -1,5 +1,6 @@
-package lith;
+package lith.raccoonmod;
 
+import lith.raccoonmod.entity.CubeEntity;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
@@ -12,15 +13,14 @@ import net.minecraft.util.registry.Registry;
 
 public class RaccoonEntity implements ModInitializer {
 
-    public static final EntityType<lith.entity.RaccoonEntity> RACCOON = Registry.register(
+    public static final EntityType<CubeEntity> CUBE = Registry.register(
             Registry.ENTITY_TYPE,
-            new Identifier("raccoon","raccoonentity"),
-            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, lith.entity.RaccoonEntity::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
-
+            new Identifier("raccoonmod", "raccoon"),
+            FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, CubeEntity::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
     );
 
     @Override
     public void onInitialize() {
-        FabricDefaultAttributeRegistry.register(RACCOON, lith.entity.RaccoonEntity.createMobAttributes());
+        FabricDefaultAttributeRegistry.register(CUBE, CubeEntity.createMobAttributes());
     }
 }
