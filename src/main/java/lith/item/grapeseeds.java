@@ -1,4 +1,4 @@
-package lith.registry;
+package lith.item;
 
 import lith.block.grapeplant;
 import net.fabricmc.api.ModInitializer;

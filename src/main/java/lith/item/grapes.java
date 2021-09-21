@@ -1,4 +1,4 @@
-package lith.registry;
+package lith.item;
 
 import net.fabricmc.api.ModInitializer;
 

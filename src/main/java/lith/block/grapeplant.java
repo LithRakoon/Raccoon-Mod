@@ -1,16 +1,9 @@
 package lith.block;
 
-import lith.registry.grapeseeds;
-import net.fabricmc.api.ModInitializer;
+import lith.item.grapeseeds;
 import net.minecraft.block.*;
-import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.util.shape.VoxelShape;
 
 import javax.swing.text.html.BlockView;
