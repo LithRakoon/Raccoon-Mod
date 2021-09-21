@@ -1,4 +1,4 @@
-package lith.item;
+package lith.raccoonmod.item;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -15,6 +15,6 @@ public class raccoonegg implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Registry.register(Registry.ITEM, new Identifier("raccoon", "raccoonegg"), RACCOONEGG);
+        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonegg"), RACCOONEGG);
     }
 }

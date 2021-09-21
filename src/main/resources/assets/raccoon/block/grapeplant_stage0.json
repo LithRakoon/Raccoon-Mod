@@ -1,6 +1,0 @@
-{
-  "parent": "raccoon:block/grapeplant",
-  "texture": {
-    "crop": "raccoon:block/grapeplant_stage0"
-  }
-}

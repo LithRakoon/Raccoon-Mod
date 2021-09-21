@@ -1,4 +1,4 @@
-package lith.block;
+package lith.raccoonmod.block;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -16,8 +16,8 @@ public class trashblock implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Registry.register(Registry.BLOCK, new Identifier("raccoon", "trashblock"), TRASH_BLOCK);
-        Registry.register(Registry.ITEM, new Identifier("raccoon", "trashblock"), new BlockItem(TRASH_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        Registry.register(Registry.BLOCK, new Identifier("raccoonmod", "trashblock"), TRASH_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "trashblock"), new BlockItem(TRASH_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 
     }
 }

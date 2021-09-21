@@ -1,4 +1,4 @@
-package lith.item;
+package lith.raccoonmod.item;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +16,6 @@ public class grapes implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Registry.register(Registry.ITEM, new Identifier("raccoon", "grapes"), GRAPES);
+        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "grapes"), GRAPES);
     }
 }

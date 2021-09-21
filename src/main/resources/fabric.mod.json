@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "raccoon",
+  "id": "raccoonmod",
   "version": "${version}",
 
   "name": "The Raccoon Mod",
@@ -14,24 +14,25 @@
   },
 
   "license": "LGPL-3.0",
-  "icon": "assets/raccoon/icon.png",
+  "icon": "assets/raccoonmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.item.raccoonegg",
-      "lith.item.cottoncandy",
-      "lith.block.trashblock",
-      "lith.item.grapes"
+      "lith.raccoonmod.item.cottoncandy",
+      "lith.raccoonmod.item.grapes",
+      "lith.raccoonmod.item.raccoonegg",
+      "lith.raccoonmod.block.trashblock"
     ]
   },
   "mixins": [
+
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.11.7",
     "fabric": "*",
-    "minecraft": "1.17.x",
+    "minecraft": "1.17.1",
     "java": ">=16"
   },
   "suggests": {
