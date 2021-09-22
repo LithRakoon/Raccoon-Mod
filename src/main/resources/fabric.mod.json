@@ -22,7 +22,10 @@
       "lith.raccoonmod.item.cottoncandy",
       "lith.raccoonmod.item.grapes",
       "lith.raccoonmod.item.raccoonegg",
-      "lith.raccoonmod.block.trashblock"
+      "lith.raccoonmod.block.trashblock",
+      "lith.raccoonmod.item.RaccoonsFur",
+      "lith.raccoonmod.armour.RaccoonFurStats",
+      "lith.raccoonmod.item.RaccoonsFurArmour"
     ]
   },
   "mixins": [
