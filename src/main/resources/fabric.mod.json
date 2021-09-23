@@ -25,7 +25,7 @@
       "lith.raccoonmod.block.trashblock",
       "lith.raccoonmod.item.RaccoonsFur",
       "lith.raccoonmod.armour.RaccoonFurStats",
-      "lith.raccoonmod.item.RaccoonsFurArmour"
+      "lith.raccoonmod.item.RacoonsFurArmour"
     ]
   },
   "mixins": [
