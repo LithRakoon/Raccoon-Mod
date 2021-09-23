@@ -16,7 +16,7 @@ public class cottoncandy implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        COTTON_CANDY= register(Registry.ITEM, new Identifier("raccoonmod","cottoncandy"), new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(2).snack().build())));
+        COTTON_CANDY= Registry.register(Registry.ITEM, new Identifier("raccoonmod","cottoncandy"), new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(2).snack().build())));
     }
 
 }

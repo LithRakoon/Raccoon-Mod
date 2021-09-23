@@ -8,8 +8,6 @@ import net.minecraft.util.Identifier;
 
 import net.minecraft.util.registry.Registry;
 
-import static net.minecraft.util.registry.Registry.register;
-
 public class raccoonegg implements ModInitializer {
 
     // racoon egg pog
@@ -17,6 +15,6 @@ public class raccoonegg implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        RACCOON_EGG = register(Registry.ITEM, new Identifier("raccoonmod", "raccoonegg"), new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
+        RACCOON_EGG = Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonegg"), new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
     }
 }
