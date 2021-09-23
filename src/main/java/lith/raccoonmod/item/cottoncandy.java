@@ -9,12 +9,14 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+import static net.minecraft.util.registry.Registry.register;
+
 public class cottoncandy implements ModInitializer {
-    public static final Item COTTONCANDY = new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(2).snack().build()));
+    public static Item COTTON_CANDY;
 
     @Override
     public void onInitialize() {
-        Registry.register(Registry.ITEM, new Identifier("raccoonmod","cottoncandy"), COTTONCANDY);
+        COTTON_CANDY= register(Registry.ITEM, new Identifier("raccoonmod","cottoncandy"), new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(3).saturationModifier(2).snack().build())));
     }
 
 }

@@ -12,16 +12,16 @@ public class RaccoonsFurArmour {
 
     public static final ArmorMaterial RACCOONSFUR = new RaccoonFurStats();
 
-    public static final Item RACCOONHAT = new Item(new FabricItemSettings().group(ItemGroup.COMBAT));
-    public static final Item RACCOONCOAT = new Item(new FabricItemSettings().group(ItemGroup.COMBAT));
-    public static final Item RACCOONLEGGINGS = new Item(new FabricItemSettings().group(ItemGroup.COMBAT));
-    public static final Item RACCOONPAWS = new Item(new FabricItemSettings().group(ItemGroup.COMBAT));
+    public static Item RACCOON_HAT;
+    public static Item RACCOON_COAT;
+    public static Item RACCOON_LEGGINGS;
+    public static Item RACCOON_PAWS;
 
     public static void register() {
-        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonhat"), RACCOONHAT);
-        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccooncoat"), RACCOONCOAT);
-        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonleggings"), RACCOONLEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonpaws"), RACCOONPAWS);
+        RACCOON_HAT = register(Registry.ITEM, new Identifier("raccoonmod", "raccoonhat"), new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+        RACCOON_COAT = register(Registry.ITEM, new Identifier("raccoonmod", "raccooncoat"), new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+        RACCOON_LEGGINGS = register(Registry.ITEM, new Identifier("raccoonmod", "raccoonleggings"), new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+        RACCOON_PAWS = register(Registry.ITEM, new Identifier("raccoonmod", "raccoonpaws"), new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
     }
 }
 
