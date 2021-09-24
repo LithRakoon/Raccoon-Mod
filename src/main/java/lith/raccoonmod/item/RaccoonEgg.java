@@ -8,13 +8,13 @@ import net.minecraft.util.Identifier;
 
 import net.minecraft.util.registry.Registry;
 
-public class raccoonegg implements ModInitializer {
+public class RaccoonEgg implements ModInitializer {
 
     // racoon egg pog
     public static Item RACCOON_EGG;
 
     @Override
     public void onInitialize() {
-        RACCOON_EGG = Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonegg"), new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
+        RACCOON_EGG = Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoon_egg"), new Item(new FabricItemSettings().group(ItemGroup.FOOD)));
     }
 }

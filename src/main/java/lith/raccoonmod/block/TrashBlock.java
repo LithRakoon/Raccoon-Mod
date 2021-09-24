@@ -11,13 +11,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class trashblock implements ModInitializer {
+public class TrashBlock implements ModInitializer {
     public static Block TRASH_BLOCK;
 
     @Override
     public void onInitialize() {
-        TRASH_BLOCK = Registry.register(Registry.BLOCK, new Identifier("raccoonmod", "trashblock"), new Block(FabricBlockSettings.of(Material.SOIL).strength(4.0f)));
-        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "trashblock"), new BlockItem(TRASH_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
+        TRASH_BLOCK = Registry.register(Registry.BLOCK, new Identifier("raccoonmod", "trash_block"), new Block(FabricBlockSettings.of(Material.SOIL).strength(4.0f)));
+        Registry.register(Registry.ITEM, new Identifier("raccoonmod", "trash_block"), new BlockItem(TRASH_BLOCK, new FabricItemSettings().group(ItemGroup.BUILDING_BLOCKS)));
 
     }
 }

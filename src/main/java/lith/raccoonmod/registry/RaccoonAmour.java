@@ -1,4 +1,4 @@
-package lith.raccoonmod;
+package lith.raccoonmod.registry;
 
 import lith.raccoonmod.init.RaccoonsFurArmour;
 import net.fabricmc.api.ModInitializer;

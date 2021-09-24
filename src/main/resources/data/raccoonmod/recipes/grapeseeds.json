@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "raccoon:grapes"
+            "item": "raccoonmod:grapes"
         }
     ],
     "result": {
-        "item": "raccoon:grapeseeds",
+        "item": "raccoonmod:grape_seeds",
         "count": 3
     }
 }

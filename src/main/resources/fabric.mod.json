@@ -19,12 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.raccoonmod.item.cottoncandy",
-      "lith.raccoonmod.item.grapes",
-      "lith.raccoonmod.item.raccoonegg",
-      "lith.raccoonmod.block.trashblock",
+      "lith.raccoonmod.item.CottonCandy",
+      "lith.raccoonmod.item.Grapes",
+      "lith.raccoonmod.item.GrapeSeeds",
+      "lith.raccoonmod.item.RaccoonEgg",
+      "lith.raccoonmod.block.TrashBlock",
       "lith.raccoonmod.item.RaccoonsFur",
-      "lith.raccoonmod.RaccoonArmour"
+      "lith.raccoonmod.registry.RaccoonAmour"
     ]
   },
   "mixins": [

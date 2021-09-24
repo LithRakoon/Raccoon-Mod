@@ -1,9 +1,14 @@
 {
-  "item.raccoonmod.raccoonegg": "Raccoon Egg",
-  "item.raccoonmod.cottoncandy": "Cotton Candy",
+  "item.raccoonmod.raccoon_egg": "Raccoon Egg",
+  "item.raccoonmod.cotton_candy": "Cotton Candy",
   "item.raccoonmod.grapes": "Grapes",
-  "item.raccoonmod.grapeseeds": "Grape Seeds",
-  "item.raccoonmod.raccoonsfur": "Raccoons Fur",
+  "item.raccoonmod.grape_seeds": "Grape Seeds",
+  "item.raccoonmod.raccoons_fur": "Raccoons Fur",
 
-  "block.raccoonmod.trashblock": "Trash Block"
+  "block.raccoonmod.trash_block": "Trash Block",
+
+  "item.raccoonmod.raccoon_hat": "Raccoon Hat",
+  "item.raccoonmod.raccoon_coat": "Raccoon Coat",
+  "item.raccoonmod.raccoon_leggings": "Raccoon Leggings",
+  "item.raccoonmod.raccoon_paws": "Raccoon Paws"
 }

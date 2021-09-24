@@ -2,22 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "WWW",
-    "WDW",
+    "WRW",
     " S "
   ],
   "key": {
     "W": {
       "item": "minecraft:sugar"
     },
-    "D": {
-      "item": "minecraft:pink_dye"
+    "R": {
+      "item": "minecraft:white_dye"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "raccoon:cottoncandy",
+    "item": "raccoonmod:cotton_candy",
     "count": 5
   }
 }
+

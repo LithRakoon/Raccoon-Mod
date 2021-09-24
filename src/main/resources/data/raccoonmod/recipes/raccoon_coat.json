@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "raccoonmod:raccoons_fur"
+    }
+  },
+  "result": {
+    "item": "raccoonmod:raccoon_coat",
+    "count": 1
+  }
+}

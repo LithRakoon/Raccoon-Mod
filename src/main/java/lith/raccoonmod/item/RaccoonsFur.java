@@ -13,6 +13,6 @@ public class RaccoonsFur implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        RACCOONS_FUR = Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoonsfur"), new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+        RACCOONS_FUR = Registry.register(Registry.ITEM, new Identifier("raccoonmod", "raccoons_fur"), new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     }
 }
