@@ -40,7 +40,7 @@ public class RaccoonFurStats implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return "raccoonsfur";
+        return "raccoonmod";
     }
 
     @Override
@@ -53,4 +53,3 @@ public class RaccoonFurStats implements ArmorMaterial {
         return 0.0f;
     }
 }
-
