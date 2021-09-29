@@ -19,10 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "lith.raccoonmod.Entity"
+      "lith.raccoonmod.Raccoon"
     ],
     "client": [
-      "lith.raccoonmod.EntityClient"
+      "lith.raccoonmod.RaccoonEntityClient"
     ]
   },
   "mixins": [

@@ -1,18 +1,18 @@
 package lith.raccoonmod.client.model;
 
 import com.google.common.collect.ImmutableList;
-import lith.raccoonmod.entity.CubeEntity;
+import lith.raccoonmod.entity.RaccoonEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.entity.model.EntityModel;
 import net.minecraft.client.render.entity.model.EntityModelPartNames;
 import net.minecraft.client.util.math.MatrixStack;
 
-public class CubeEntityModel extends EntityModel<CubeEntity> {
+public class RaccoonEntityModel extends EntityModel<RaccoonEntity> {
 
     private final ModelPart base;
 
-    public CubeEntityModel(ModelPart modelPart) {
+    public RaccoonEntityModel(ModelPart modelPart) {
         this.base = modelPart.getChild(EntityModelPartNames.CUBE);
     }
 
@@ -25,13 +25,11 @@ public class CubeEntityModel extends EntityModel<CubeEntity> {
 
     @Override
     public void render(MatrixStack matrices, VertexConsumer vertices, int light, int overlay, float red, float green, float blue, float alpha) {
-        ImmutableList.of(this.base).forEach((modelRenderer) -> {
-            modelRenderer.render(matrices, vertices, light, overlay, red, green, blue, alpha);
-        });
+        ImmutableList.of(this.base).forEach((modelRenderer) -> modelRenderer.render(matrices, vertices, light, overlay, red, green, blue, alpha));
     }
 
     @Override
-    public void setAngles(CubeEntity entity, float limbAngle, float limbDistance, float animationProgress, float headYaw, float headPitch) {
+    public void setAngles(RaccoonEntity entity, float limbAngle, float limbDistance, float animationProgress, float headYaw, float headPitch) {
 
     }
 }
