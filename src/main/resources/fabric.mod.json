@@ -14,12 +14,15 @@
   },
 
   "license": "LGPL-3.0",
-  "icon": "assets/raccoon/icon.png",
+  "icon": "assets/raccoonmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-
+      "lith.raccoonmod.Entity"
+    ],
+    "client": [
+      "lith.raccoonmod.EntityClient"
     ]
   },
   "mixins": [

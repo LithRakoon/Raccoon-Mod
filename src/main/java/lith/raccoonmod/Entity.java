@@ -6,16 +6,16 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
-
 import net.minecraft.entity.SpawnGroup;
+import net.minecraft.entity.mob.SlimeEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class RaccoonEntity implements ModInitializer {
+public class Entity implements ModInitializer {
 
     public static final EntityType<CubeEntity> CUBE = Registry.register(
             Registry.ENTITY_TYPE,
-            new Identifier("raccoonmod", "raccoon"),
+            new Identifier("raccoonmod", "cube"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, CubeEntity::new).dimensions(EntityDimensions.fixed(0.75f, 0.75f)).build()
     );
 
