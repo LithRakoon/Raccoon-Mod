@@ -7,9 +7,13 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.render.entity.model.EntityModelLayer;
+import net.minecraft.util.Identifier;
 
 @Environment(EnvType.CLIENT)
 public class EntityClient implements ClientModInitializer {
+
+    public static final EntityModelLayer MODEL_CUBE_LAYER = new EntityModelLayer(new Identifier("raccoonmod", "cube"), "main");
 
     @Override
     public void onInitializeClient() {
