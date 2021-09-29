@@ -7,6 +7,6 @@ import net.minecraft.world.World;
 public class CubeEntity extends PathAwareEntity {
 
     public CubeEntity(EntityType<? extends PathAwareEntity> entityType, World world) {
-        super(EntityType, world);
+        super(entityType, world);
     }
 }
